@@ -1,0 +1,91 @@
+/* 
+1.  Позиционирование
+2.	Блочная модель
+3.	Типографика
+4.	Оформление
+5.	Анимация
+6.	Разное
+*/
+
+/* section */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+section .main-img {
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+
+/* 
+section .header-img {
+  position: absolute;
+  top: 280px;
+  left: 17px;
+  height: 361px;
+  width: 456px;
+  filter: blur(3px);
+} */
+
+section .text-header {
+    position: absolute;
+    top: -155px;
+    right: 383px;
+    font-size: 170px;
+    font-style: italic;
+    color: #e7c630;
+}
+
+/* content */
+
+.content {
+    border: inset;
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+
+}
+
+.content1 {
+    /* position: relative;
+    display: flex;
+    width: 500px;
+    /* flex-direction: row; */
+
+}
+
+.content2 {
+
+    position: fixed;
+    /* Фиксированное положение */
+    right: 10px;
+    /* Расстояние от правого края окна браузера */
+    top: 20%;
+    /* Расстояние сверху */
+    padding: 10px;
+    /* Поля вокруг текста */
+    border: 1px solid #333;
+    /* position: fixed;
+  margin-right: 50px;
+  width: 500px;
+  flex-direction: column; */
+
+}
+
+#first {
+    text-align: center;
+}
+
+.chapter1,
+.chapter2,
+.chapter3,
+.chapter4,
+.chapter5 {
+    border: groove;
+}
